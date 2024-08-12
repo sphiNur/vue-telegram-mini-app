@@ -13,7 +13,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/vue-telegram-mini-app/'
-    : '/'
+  base: '/vue-telegram-mini-app/'
 })
