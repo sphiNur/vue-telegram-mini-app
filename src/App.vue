@@ -33,31 +33,5 @@ export default {
 </script>
 
 <style scoped>
-.container {
-  font-family: Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  background-color: #f0f2f5;
-  text-align: center;
-  padding: 20px;
-}
 
-button {
-  background-color: #0088cc;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  margin-top: 20px;
-}
-
-button:hover {
-  background-color: #006699;
-}
 </style>
